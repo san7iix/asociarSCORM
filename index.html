@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Asocie las imágenes</title>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" charset="utf-8"></script>
+    <!-- <script type="text/javascript" src="SCORM_API_wrapper.js"></script> -->
+    <script src="./scripts/jquery.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+    <body onload="initCourse()">
+      <div class="titulo">
+        <h1>Asocia las palabras con las imágenes</h1>
+        <p>Presiona sobre una de las palabras y selecciona la imágen correspondiente, para seleccionar otra palabra primero haz click sobre la palabra antes seleccionada</p>
+      </div>
+      <div class="container">
+        <div class="palabras">
+          <button class="frase" id="pnl">Pnl</button>
+          <button class="frase" id="negocios">Negocios</button>
+          <button class="frase" id="rise">Rise</button>
+          <button class="frase" id="eneagrama">Eneagrama</button>
+          <button class="frase" id="equipo">Equipo</button>
+          <button class="frase" id="comunicacion">Comunicación</button>
+        </div>
+        <div class="imagenes">
+            <img src="./img/eneagrama.png" alt="" id="eneagrama">
+            <img src="./img/urise-logo.png" alt="" id="rise">
+            <img src="./img/pnl.png" alt="" id="pnl">
+            <img src="./img/negocios.jpg" alt="" id="negocios">
+            <img src="./img/equipo.jpg" alt="" id="equipo">
+            <img src="./img/comunicacion.jpg" alt="" id="comunicacion">
+        </div>
+      </div>
+    </body>
+    <script src="./scripts/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/master.css">
+</html>
